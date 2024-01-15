@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073f2a1d23eaeb34dabaea9a3e2139c8, type: 3}
+  m_Name: WeaponsStats
+  m_EditorClassIdentifier: 
+  Weapon:
+  - id: 0
+    weaponName: 
+    damage: 0
+    weaponType: 
+    sprite: {fileID: 0}
+    fireRate: 0
+    bulletSpeed: 0
+    bulletCount: 0
+    bulletPrefab: {fileID: 0}
+    weaponItemPrefab: {fileID: 0}
+    shootSound: {fileID: 0}
+  - id: 1
+    weaponName: purple Sword
+    damage: 10
+    weaponType: Sword
+    sprite: {fileID: 21300000, guid: a9e977e59b81a7f43bba30ba593c27f7, type: 3}
+    fireRate: 0
+    bulletSpeed: 0
+    bulletCount: 0
+    bulletPrefab: {fileID: 7449206766255490047, guid: a3ab6c1ee6b49aa44a85c4d1aca152c4, type: 3}
+    weaponItemPrefab: {fileID: 1038450034609991105, guid: 625c218684421d34e83e059a7b30619f, type: 3}
+    shootSound: {fileID: 0}
+  - id: 2
+    weaponName: Green Sword
+    damage: 50
+    weaponType: Sword
+    sprite: {fileID: 21300000, guid: 5e9e81bea11003642965a38fcfcd0cd1, type: 3}
+    fireRate: 0
+    bulletSpeed: 0
+    bulletCount: 0
+    bulletPrefab: {fileID: 3832907126045494399, guid: 3617e4093ca8d5145986d37c89cfd692, type: 3}
+    weaponItemPrefab: {fileID: 2263391982724732200, guid: aeb7adc73a4efdc41af730d2377c705f, type: 3}
+    shootSound: {fileID: 0}
+  - id: 3
+    weaponName: Black Gun
+    damage: 10
+    weaponType: Gun
+    sprite: {fileID: 21300000, guid: 59696e37702a5ba4e9263e9359a79e19, type: 3}
+    fireRate: 0
+    bulletSpeed: 0
+    bulletCount: 15
+    bulletPrefab: {fileID: 7510528619858064960, guid: 7ea4ac0022de91142aadeff877fa1824, type: 3}
+    weaponItemPrefab: {fileID: 3670546302611708655, guid: 15b443a6453faa14eb8cd8466fff7021, type: 3}
+    shootSound: {fileID: 0}
+  - id: 4
+    weaponName: red  Gun
+    damage: 50
+    weaponType: Gun
+    sprite: {fileID: 21300000, guid: 8d123fa627a104749b5225198acf829e, type: 3}
+    fireRate: 0
+    bulletSpeed: 0
+    bulletCount: 15
+    bulletPrefab: {fileID: 3823321262691816068, guid: e191308afba47004e917a3d044d0c0b1, type: 3}
+    weaponItemPrefab: {fileID: 3748488896365256741, guid: 17c1559a48b970d4e8733f7f839d842b, type: 3}
+    shootSound: {fileID: 0}
+  - id: 5
+    weaponName: Black Assult Rifle
+    damage: 10
+    weaponType: Assult Rifle
+    sprite: {fileID: 21300000, guid: 2b579a160e2bb6641833e543a619985d, type: 3}
+    fireRate: 5
+    bulletSpeed: 0
+    bulletCount: 50
+    bulletPrefab: {fileID: 6948081837284883828, guid: d12097ce3c216604c8624a2da1c02260, type: 3}
+    weaponItemPrefab: {fileID: 5655974075458523934, guid: c14d9786d1f29ef4bb658d7e56615755, type: 3}
+    shootSound: {fileID: 0}
+  - id: 6
+    weaponName: Red Assult Rifle
+    damage: 50
+    weaponType: Assult Rifle
+    sprite: {fileID: 21300000, guid: e63570d157c602a4bab8c7243e217d83, type: 3}
+    fireRate: 20
+    bulletSpeed: 0
+    bulletCount: 100
+    bulletPrefab: {fileID: 7775909171458005017, guid: 7b3294f08d0ff02459c627c1de9c3611, type: 3}
+    weaponItemPrefab: {fileID: 6831284992727249508, guid: a39a32517089d6a45bcc95043474c503, type: 3}
+    shootSound: {fileID: 0}
